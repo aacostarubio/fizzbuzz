@@ -1,0 +1,4 @@
+primefactorsKata
+================
+
+Awesome
