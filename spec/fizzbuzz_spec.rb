@@ -10,9 +10,10 @@ describe FizzBuzz do
 		@game.play(3).should == "fizz"
 	end
 
-	it 'should output fizz' do
+	it 'should output buzz' do
 		@game.play(5).should == "buzz"
 	end
+
 
  
 end
