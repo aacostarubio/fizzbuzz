@@ -18,6 +18,10 @@ describe FizzBuzz do
 		@game.play(15).should == "fizzbuzz"
 	end
 
+	it 'should output the number' do
+		@game.play(2).should == 2
+	end
+
 
  
 end

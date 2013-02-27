@@ -10,6 +10,8 @@ class FizzBuzz
 			return "fizz"
 		elsif n%5 == 0
 			return "buzz"
+		else
+			return n
 		end
 
 	end
