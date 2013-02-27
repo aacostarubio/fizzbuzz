@@ -1,7 +1,15 @@
 class FizzBuzz
 
 	def play(n)
-		"fizz"
+
+		out = ""
+
+		if n%3 == 0
+			return "fizz"
+		elsif n%5 == 0
+			return "buzz"
+		end
+
 	end
 	
 end
