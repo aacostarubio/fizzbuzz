@@ -1,4 +1,4 @@
-primefactorsKata
+fizzbuzz
 ================
 
 Awesome

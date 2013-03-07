@@ -1,19 +1,21 @@
 class FizzBuzz
 
-	def play(n)
+	attr_reader :range
 
-		out = ""
+	def initialize(range)
+		@range = range
+	end
 
-		if n%3 == 0 && n%5 == 0 
-			return "fizzbuzz"
-		elsif n%3 == 0
-			return "fizz"
-		elsif n%5 == 0
-			return "buzz"
+	def play
+		range.map { |try| output_for_number(try) }.join("\n")
+	end
+
+	def output_for_number(number)
+		if (number % 3).zero?
+			"fizz"
 		else
-			return n
+			number.to_s
 		end
-
 	end
 	
 end

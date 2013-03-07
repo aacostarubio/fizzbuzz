@@ -2,37 +2,12 @@ require 'fizzbuzz'
 
 describe FizzBuzz do
 
-	before do
-		@game = FizzBuzz.new
+	def output_for(range)
+		FizzBuzz.new(range).play
 	end
 
-	it 'should output fizz' do
-		@game.play(3).should == "fizz"
+	it 'should output 1 for this range' do
+		output_for(1..1).should == '1'
 	end
 
-	it 'should output buzz' do
-		@game.play(5).should == "buzz"
-	end
-
-	it 'should output fizzbuzz' do
-		@game.play(15).should == "fizzbuzz"
-	end
-
-	it 'should output the number' do
-		@game.play(2).should == 2
-	end
-
-	it 'should output buzz' do
-		@game.play(100).should == "buzz"
-	end
-
-	it 'should output fizz' do
-		@game.play(1089).should == "fizz"
-	end
-
-	it 'should output number' do
-		@game.play(17).should == 17
-	end
-
- 
 end
