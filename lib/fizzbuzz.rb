@@ -7,7 +7,7 @@ class FizzBuzz
 	end
 
 	def play
-		range.map { |try| output_for_number(try) }.join("\n") 
+		range.map { |try| output_for_number(try) }
 	end
 
 	def output_for_number(number)
