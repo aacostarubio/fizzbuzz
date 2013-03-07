@@ -14,4 +14,12 @@ describe FizzBuzz do
 		output_for(3..3).should == 'fizz'
 	end
 
+	it 'should output buzz for this try' do
+		output_for(5..5).should == "buzz"
+	end
+
+	it 'should output fizzbuzz for a number divisable by 5 and 3' do
+		output_for(15..15).should == "fizzbuzz"
+	end
+
 end
