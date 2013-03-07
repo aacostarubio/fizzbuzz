@@ -21,11 +21,7 @@ describe FizzBuzz do
 	it 'should output fizzbuzz for a number divisable by 5 and 3' do
 		output_for(15..15).should == ["fizzbuzz"]
 	end
-
-	it 'should output fizzbuzz for a number divisable by 5 and 3' do
-		output_for(15..15).should == ["fizzbuzz"]
-	end
-
+	
 	it 'should output fizz, buzz, and fizzbuzz respectively' do
 		output_for(1..15).should == [1,2,"fizz",4,"buzz","fizz",7,8,"fizz","buzz",11,"fizz",13,14,"fizzbuzz"]
 	end
