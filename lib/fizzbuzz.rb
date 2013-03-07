@@ -1,5 +1,4 @@
 class FizzBuzz
-
 	attr_reader :range
 
 	def initialize(range)
@@ -21,5 +20,5 @@ class FizzBuzz
 			number
 		end
 	end
-	
+
 end
