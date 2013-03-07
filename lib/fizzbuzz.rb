@@ -18,7 +18,7 @@ class FizzBuzz
 		elsif (number % 5).zero?
 			"buzz"
 		else
-			number.to_s
+			number
 		end
 	end
 	

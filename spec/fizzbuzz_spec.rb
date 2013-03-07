@@ -7,7 +7,7 @@ describe FizzBuzz do
 	end
 
 	it 'should output 1 for this try' do
-		output_for(1..1).should == ["1"]
+		output_for(1..1).should == [1]
 	end
 
 	it 'should output fizz for this try' do
@@ -27,7 +27,7 @@ describe FizzBuzz do
 	end
 
 	it 'should output fizz, buzz, and fizzbuzz respectively' do
-		output_for(1..15).should == ["1","2","fizz","4","buzz","fizz","7","8","fizz","buzz","11","fizz","13","14","fizzbuzz"]
+		output_for(1..15).should == [1,2,"fizz",4,"buzz","fizz",7,8,"fizz","buzz",11,"fizz",13,14,"fizzbuzz"]
 	end
 
 end
